@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>POKESYSTEM </title>
+</head>
+<style>
+    
+    h1{
+        text-align: center;
+    }
+    
+    
+    form{
+        
+        margin: 0 auto;
+        width: 400px;
+        border: 1px solid;
+        border-radius: 1em;
+        padding: 10px;
+        background-color: rgb(172, 137, 63);
+        
+
+
+    }
+   
+    label{
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    body{
+        background-color: antiquewhite;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+<body>
+    <form>
+    <h1>Pokesystem</h1>
+    <label>Nome:</label>
+    
+    
+    <input type="text">
+    
+    
+
+        <label for="tipo de pokemon">Tipo:</label>
+    <select id="tipo de pokemon">
+        <option value="Selecione">--Selecione</option>
+        <option value="Eletrico">Eletrico</option>
+        <option value="Fogo">Fogo</option>
+        <option value="Agua">Agua</option>
+        <option value="Terra">Terra</option>
+        <option value="Gelo">Gelo</option>
+        <option value="Psiquico">Psiquico</option>
+        <option value="Planta">Planta</option>
+    </select>
+    <div>
+    
+     
+        <label>Ataque</label>
+        <input type="number" name="quantity" min="0" max="100">
+    
+        <label>Defesa</label>
+        <input type="number" name="quantity" min="0" max="100">
+    </div>
+    <div>
+    <Label>Evoluido?</Label>
+        <label> <input type="checkbox" name="Sim">Sim</label>
+        <label> <input type="checkbox" name="Não">Não</label>
+        
+    </div>
+    
+    <label>Descrição</label>
+    <textarea  placeholder="Quais as caracteristicas do seu pokemon?"></textarea>
+</div>
+    
+
+
+    </form>
+    
+</body>
+</html>
